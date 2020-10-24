@@ -3,11 +3,11 @@ import React from 'react';
 import '../../App.css';
 
 function About () {
-    return (
-        <div>
-            <h1>About now baby</h1>
-        </div>
-    );
+  return (
+    <>
+      <h1>About now baby</h1>
+    </>
+  );
 }
 
 
