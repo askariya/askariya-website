@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Navigation from './components/Navigation'
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
+import Home from './components/pages/Home'
+import Projects from './components/pages/Projects'
+import About from './components/pages/About'
+import Contact from './components/pages/Contact'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>//TODO:</code> a whole website.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1> Arunalu Kariyawasam </h1>
+      <Router>
+        <Navigation />
+        <Switch>
+          {/* the exact keyword prevents cconfusion with other links that extend from this path*/}
+          <Route path='/' exact component={Home} />
+          <Route path='/projects' component={Projects} />
+          <Route path='/about' component={About} />
+          <Route path='/contact' component={Contact} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
