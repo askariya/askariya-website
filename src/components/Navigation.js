@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import './Navigation.css';
+import logo_test from '../images/atlanta-flames.png'; // with import
 
 function Navigation() {
   const [click, setClick] = useState(false);
@@ -13,7 +14,7 @@ function Navigation() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            {/* <img src={require('../images/nukuls.jpg')} /> */}
+            <img className="logo-img" src={logo_test}/>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
 

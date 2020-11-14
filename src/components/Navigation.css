@@ -8,22 +8,29 @@
   /* float: right */
 }
 .navbar{
-  border: dotted red;
+  /* border: dotted red; */
   background-color: #292F36;
 }
 .navbar-container{
-  border: dotted yellow;
+  /* border: dotted yellow; */
   display: flex;
   justify-content: space-between;
 }
 .navbar-logo
 {
-  border: dotted green;
+  /* border: dotted green; */
   display: flex;
   float: left;
+  padding: 0.5em;
 }
+
+.logo-img{
+  height: 2em;
+  width: 2em;
+}
+
 .navbar li{
-  border: dotted blue;
+  /* border: dotted blue; */
   display: flex;
   float: left;
 }
