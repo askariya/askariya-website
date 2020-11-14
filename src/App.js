@@ -10,7 +10,6 @@ import Contact from './components/pages/Contact'
 function App() {
   return (
     <>
-      <h1> Arunalu Kariyawasam </h1>
       <Router>
         <Navigation />
         <Switch>
