@@ -1,29 +1,57 @@
-nav ul{
-    list-style-type: none;
-    margin: 0em;
-    padding: 0em;
-    overflow: hidden;
-    background-color: #292F36;
+.navbar ul{
+  display: flex;
+  list-style-type: none;
+  margin: 0em;
+  padding: 0em;
+  overflow: hidden;
+  /* background-color: #292F36; */
+  /* float: right */
+}
+.navbar{
+  width: 100%;
+  border: dotted red;
+  background-color: transparent;
+  z-index: 1;
+  position: fixed;
+}
+.navbar-container{
+  border: dotted yellow;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-logo
+{
+  border: dotted green;
+  display: flex;
+  float: left;
+  padding: 0.5em;
 }
 
-nav li{
-    float: left;
+.logo-img{
+  height: 2em;
+  width: 2em;
 }
 
-nav li a{
-    display: block;
-    color: white;
-    text-align: center;
-    font-size: 1em;
-    padding: 1em 2em;
-    text-decoration: none;
+.navbar li{
+  border: dotted blue;
+  display: flex;
+  float: left;
+}
+
+.navbar li a{
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 1em;
+  padding: 1em 2em;
+  text-decoration: none;
+  text-shadow: 2px 2px 8px black;
 }
 
 #nav_active{
     background-color:#4ECDC4;
 }
 
-nav li a:hover{
-    /* Change the link color to red on hover */
+.navbar li a:hover{
     background-color: #404e66;
 }
