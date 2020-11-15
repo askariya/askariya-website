@@ -3,12 +3,21 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: Arial, Helvetica, sans-serif;
   border: solid salmon;
 }
 * {
   box-sizing: border-box;
+}
+
+div {
+  border: dashed green;
+}
+
+div.navbar{
+  width: 100%;
+  border: dotted red;
 }
 .Parallax {
   display: flex;
@@ -36,27 +45,28 @@ html, body {
   z-index: 1;
   margin-top: 2em;
 }
-.Parallax-content-heading, .Parallax-content-cta {
+/* .Parallax-content-heading, .Parallax-content-cta {
   text-align: center;
   display: flex;
   flex-direction: column;
 }
-/* .Parallax-content-heading {
+.Parallax-content-heading {
   background-color: #fff;
-  width: 40%;
+  width: 100%;
   padding: 40px;
-} */
-/* .Parallax-content-heading-text {
+}
+.Parallax-content-heading-text {
   margin: 10px 0;
   font-size: 60px;
 }
 .Parallax-content-heading-caption {
   margin: 0;
+  width: 100%;
   font-size: 20px;
-} */
-/* .Parallax-content-cta {
+}
+.Parallax-content-cta {
   background-color: #ff737e;
-  width: 60%;
+  width: 100%;
   padding: 40px;
   font-size: 20px;
   color: #fff;
