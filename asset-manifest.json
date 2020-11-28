@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/askariya-website/static/css/main.2b7a52c9.chunk.css",
-    "main.js": "/askariya-website/static/js/main.37d786a6.chunk.js",
-    "main.js.map": "/askariya-website/static/js/main.37d786a6.chunk.js.map",
-    "runtime-main.js": "/askariya-website/static/js/runtime-main.96f89711.js",
-    "runtime-main.js.map": "/askariya-website/static/js/runtime-main.96f89711.js.map",
-    "static/js/2.27e7584a.chunk.js": "/askariya-website/static/js/2.27e7584a.chunk.js",
-    "static/js/2.27e7584a.chunk.js.map": "/askariya-website/static/js/2.27e7584a.chunk.js.map",
-    "index.html": "/askariya-website/index.html",
-    "static/css/main.2b7a52c9.chunk.css.map": "/askariya-website/static/css/main.2b7a52c9.chunk.css.map",
-    "static/js/2.27e7584a.chunk.js.LICENSE.txt": "/askariya-website/static/js/2.27e7584a.chunk.js.LICENSE.txt",
-    "static/media/atlanta-flames.9da6f00d.png": "/askariya-website/static/media/atlanta-flames.9da6f00d.png",
-    "static/media/App.css": "/askariya-website/static/media/test-para.c9984fff.jpg"
+    "main.css": "./static/css/main.c062c05b.chunk.css",
+    "main.js": "./static/js/main.37d786a6.chunk.js",
+    "main.js.map": "./static/js/main.37d786a6.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.3960f6d3.js",
+    "runtime-main.js.map": "./static/js/runtime-main.3960f6d3.js.map",
+    "static/js/2.27e7584a.chunk.js": "./static/js/2.27e7584a.chunk.js",
+    "static/js/2.27e7584a.chunk.js.map": "./static/js/2.27e7584a.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.c062c05b.chunk.css.map": "./static/css/main.c062c05b.chunk.css.map",
+    "static/js/2.27e7584a.chunk.js.LICENSE.txt": "./static/js/2.27e7584a.chunk.js.LICENSE.txt",
+    "static/media/atlanta-flames.9da6f00d.png": "./static/media/atlanta-flames.9da6f00d.png",
+    "static/media/App.css": "./static/media/test-para.c9984fff.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.96f89711.js",
+    "static/js/runtime-main.3960f6d3.js",
     "static/js/2.27e7584a.chunk.js",
-    "static/css/main.2b7a52c9.chunk.css",
+    "static/css/main.c062c05b.chunk.css",
     "static/js/main.37d786a6.chunk.js"
   ]
 }
