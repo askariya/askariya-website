@@ -1,12 +1,8 @@
 import './App.css';
 import Navigation from './components/Navigation';
+import Container from "./components/Container";
 import React, { useState, useEffect } from "react";
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
-import Home from './components/pages/Home';
-import Projects from './components/pages/Projects';
-import About from './components/pages/About';
-import Contact from './components/pages/Contact';
+import {BrowserRouter as Router } from 'react-router-dom';
 
 // import ReactCSSTransitionGroup from 'react-transition-group'; // ES6
 
@@ -38,12 +34,7 @@ function App() {
     <>
     <Router>
       <Navigation onChangeTab={setBackground} />
-      <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/projects' component={Projects} />
-        <Route path='/about' component={About} />
-        <Route path='/contact' component={Contact} />
-      </Switch>
+      <Container />
     </Router>
     </>
     
@@ -51,13 +42,13 @@ function App() {
 
   return (
       <>
-        <span>{bGroundImage}</span>
-        <button onClick={() => setBackground("images/hotel.jpg")}> CLICK ME </button>
+        {/* <span>{bGroundImage}</span>
+        <button onClick={() => setBackground("images/hotel.jpg")}> CLICK ME </button> */}
         <section className="Parallax">
           
           <div 
             className="Parallax-background" 
-            style={{ transform: `translateY(-${offsetY * 0.5}px)`}}
+            style={{ transform: `translateY(-${offsetY * 0.8}px)`}}
           />
           {/*TODO find an image that can reverse move here <div className="Parallax-background-triangles"/> */}
           <div className="Parallax-content">{renderContent()}</div>

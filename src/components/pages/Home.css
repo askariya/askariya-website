@@ -1,0 +1,38 @@
+.Parallax-content-heading, .Parallax-content-cta {
+  border: solid green;
+  text-align: center;
+  display: flex;
+  position: center;
+  flex-direction: column;
+}
+.Parallax-content-heading {
+  background-color: #fff;
+  width: 100%;
+  padding: 40px;
+}
+.Parallax-content-heading-text {
+  border: solid red;
+  margin: 10px 0;
+  font-size: 60px;
+}
+.Parallax-content-heading-caption {
+  border: solid red;
+  margin: 0;
+  width: 100%;
+  font-size: 20px;
+}
+.Parallax-content-cta {
+  background-color: #ff737e;
+  width: 80%;
+  padding: 2em;
+  font-size: 1.25em;
+  color: #fff;
+  margin-top: 5em;
+}
+
+section.route-section{
+  border: solid blue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
