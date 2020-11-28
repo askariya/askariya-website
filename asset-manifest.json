@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/askariya-website/static/css/main.2b7a52c9.chunk.css",
-    "main.js": "/askariya-website/static/js/main.37d786a6.chunk.js",
-    "main.js.map": "/askariya-website/static/js/main.37d786a6.chunk.js.map",
+    "main.js": "/askariya-website/static/js/main.43815d9a.chunk.js",
+    "main.js.map": "/askariya-website/static/js/main.43815d9a.chunk.js.map",
     "runtime-main.js": "/askariya-website/static/js/runtime-main.96f89711.js",
     "runtime-main.js.map": "/askariya-website/static/js/runtime-main.96f89711.js.map",
     "static/js/2.27e7584a.chunk.js": "/askariya-website/static/js/2.27e7584a.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.96f89711.js",
     "static/js/2.27e7584a.chunk.js",
     "static/css/main.2b7a52c9.chunk.css",
-    "static/js/main.37d786a6.chunk.js"
+    "static/js/main.43815d9a.chunk.js"
   ]
 }
