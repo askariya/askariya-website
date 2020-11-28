@@ -32,7 +32,7 @@ function App() {
 
   const renderContent = () => (
     <>
-    <Router>
+    <Router basename="askariya-website">
       <Navigation onChangeTab={setBackground} />
       <Container />
     </Router>
