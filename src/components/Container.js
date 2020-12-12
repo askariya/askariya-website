@@ -2,6 +2,7 @@ import React from "react";
 import { Switch, Route, withRouter } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import './Container.css';
+import ScrollToTop from "./ScrollToTop";
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import About from './pages/About';
@@ -17,6 +18,7 @@ function Container({ location }) {
           classNames={'fade'}
         >
           <section className="route-section">
+            <ScrollToTop />
             <Switch location={location}>
               <Route exact path='/' component={Home} />
               <Route path='/projects' component={Projects} />
