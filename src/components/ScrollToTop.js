@@ -3,6 +3,9 @@ import { useEffect } from 'react';
 import { withRouter } from 'react-router-dom';
 
 function ScrollToTop({ history }) {
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
   useEffect(() => {
     const unlisten = history.listen(() => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
