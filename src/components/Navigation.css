@@ -40,7 +40,7 @@
 
 .navbar li a{
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   font-size: 1em;
   padding: 1em 2em;
@@ -49,9 +49,10 @@
 }
 
 #nav_active{
-    background-color:#4ECDC4;
+  background-color:#4ECDC4;
 }
 
 .navbar li a:hover{
-    background-color: #404e66;
+  /* background-color: #404e66; */
+  color: black;
 }
