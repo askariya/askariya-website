@@ -1,19 +1,51 @@
 
-.Parallax-content-cta-proj {
+/* .Parallax-content-cta-proj {
   background-color: #ff737e;
-  /* background-repeat: no-repeat; */
   border: solid white;
   border-radius: 1em;
-  width: 20%;
+  width: 80%;
   padding: 8em;
   font-size: 1.25em;
   color: #fff;
   margin-top: 5em;
+} */
+
+.Parallax-content-cta-proj {
+  background-color: rgb(31, 30, 30);
+  /* background-repeat: no-repeat; */
+  border: solid white;
+  border-radius: 1em;
+  width: 80%;
+  /* padding: 8em; */
+  font-size: 1.25em;
+  color: #fff;
+  margin-top: 5em;
+  display: flex;
+  flex-direction: row;
+  min-width: 700px;
+}
+
+.text-block {
+  width: 73%;
+  /* border: dashed red; */
+  padding: 3em;
+}
+
+.image-block {
+  width:27%;
+  padding: 8em;
+  border-right: 0.20em solid white;
+  overflow: hidden;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+  font-size: 1em;
+  /* border: solid red; */
 }
 
 #basa {
   background-image: url("../../images/basa.jpg");
-  background-size: contain;
+  background-size: 28em;
+  background-position: center;
 }
 
 #pianio {

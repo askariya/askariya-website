@@ -13,20 +13,35 @@ function Projects () {
           I have lost all feeling in my brain.
         </h2>
       </div> */}
-      <div className="Parallax-content-cta-proj" id="basa">
-        <p>
-          <b> BASA </b>
-        </p>
+      <div className="Parallax-content-cta-proj">
+        <div className="image-block" id="basa">
+          <p>
+            <b> BASA </b>
+          </p>
+        </div>
+        <div className="text-block">
+          hello my dude, here is a description of the specific project
+        </div>
       </div>
-      <div className="Parallax-content-cta-proj" id="uCook">
-        <p>
-          <b> uCook </b>
-        </p>
+      <div className="Parallax-content-cta-proj">
+        <div className="image-block" id="uCook">
+          <p>
+            <b> uCook </b>
+          </p>
+        </div>
+        <div className="text-block">
+          hello my dude, here is a description of the specific project
+        </div>
       </div>
-      <div className="Parallax-content-cta-proj" id="pianio">
-        <p>
-          <b> Pian.io </b>
-        </p>
+      <div className="Parallax-content-cta-proj">
+        <div className="image-block" id="pianio">
+          <p>
+            <b> Pian.io </b>
+          </p>
+        </div>
+        <div className="text-block">
+          hello my dude, here is a description of the specific project
+        </div>
       </div>
     </>
   );
