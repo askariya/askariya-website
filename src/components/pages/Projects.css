@@ -1,0 +1,41 @@
+
+.Parallax-content-cta-proj {
+  background-color: #ff737e;
+  /* background-repeat: no-repeat; */
+  border: solid white;
+  border-radius: 1em;
+  width: 20%;
+  padding: 8em;
+  font-size: 1.25em;
+  color: #fff;
+  margin-top: 5em;
+}
+
+#basa {
+  background-image: url("../../images/basa.jpg");
+  background-size: contain;
+}
+
+#pianio {
+  background-image: url("../../images/pianio.jpg");
+  background-size: 25em;
+  background-position: center;
+}
+
+#uCook {
+  background-image: url("../../images/ucook.jpg");
+  background-size: 28em;
+  background-position: center;
+}
+
+.Parallax-content-cta-proj:hover {
+  background-size: 30em;
+  transform: scale(1.02);
+}
+
+section.route-section{
+  border: solid blue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

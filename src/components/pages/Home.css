@@ -2,7 +2,7 @@
   border: solid green;
   text-align: center;
   display: flex;
-  position: center;
+  position: left;
   flex-direction: column;
 }
 .Parallax-content-heading {
@@ -14,13 +14,13 @@
 .Parallax-content-heading-text {
   border: solid red;
   margin: 10px 0;
-  font-size: 60px;
+  font-size: 3.75em;
 }
 .Parallax-content-heading-caption {
   border: solid red;
   margin: 0;
   width: 100%;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 .Parallax-content-cta {
   background-color: #ff737e;
