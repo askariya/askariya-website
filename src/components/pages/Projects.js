@@ -3,6 +3,8 @@ import React from 'react';
 import '../../App.css';
 import './Projects.css'
 
+import { Link } from 'react-router-dom';
+
 function Projects () {
   return (
     <>
@@ -13,6 +15,7 @@ function Projects () {
           I have lost all feeling in my brain.
         </h2>
       </div> */}
+      <Link id='proj-link' to='/'>
       <div className="Parallax-content-cta-proj">
         <div className="image-block" id="basa">
           <p>
@@ -33,6 +36,8 @@ function Projects () {
           </p> 
         </div>
       </div>
+      </Link>
+      <Link id='proj-link' to='/projects/ucook'>
       <div className="Parallax-content-cta-proj">
         <div className="image-block" id="uCook">
           <p>
@@ -53,6 +58,8 @@ function Projects () {
           </p> 
         </div>
       </div>
+      </Link>
+      <Link id='proj-link' to='/'>
       <div className="Parallax-content-cta-proj">
         <div className="image-block" id="pianio">
           <p>
@@ -73,6 +80,7 @@ function Projects () {
           </p> 
         </div>
       </div>
+      </Link>
     </>
   );
 }
