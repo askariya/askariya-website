@@ -15,7 +15,7 @@
   /* background-repeat: no-repeat; */
   border: solid white;
   border-radius: 1em;
-  width: 80%;
+  width: 75%;
   /* padding: 8em; */
   font-size: 1.25em;
   color: #fff;
@@ -28,7 +28,9 @@
 .text-block {
   width: 73%;
   /* border: dashed red; */
+  vertical-align: text-bottom;
   padding: 3em;
+  line-height: 1.6;
 }
 
 .image-block {
