@@ -15,10 +15,10 @@
   /* background-repeat: no-repeat; */
   border: solid white;
   border-radius: 1em;
-  width: 70em;
-  height: 20em;
+  width: 67em;
+  height:18em;
   /* padding: 8em; */
-  font-size: 1.25em;
+  font-size: 1.2em;
   color: #fff;
   margin-top: 5em;
   display: flex;
@@ -30,8 +30,8 @@
   width: 73%;
   /* border: dashed red; */
   vertical-align: text-bottom;
-  padding: 3em;
-  line-height: 1.6;
+  padding: 2em;
+  line-height: 1.35;
 }
 
 .image-block {

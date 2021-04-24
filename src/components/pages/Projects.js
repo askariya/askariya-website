@@ -65,7 +65,7 @@ function Projects () {
             The interface is designed to be usable for both skilled musicians and novices alike.
           </p>
           <p>
-            Users will be able to create music through an online platform and collaborate with each other to generate musical compositions.
+            Users are able to create music through an online platform and collaborate with each other to generate musical compositions.
           </p>
           <br/>
           <p> 
