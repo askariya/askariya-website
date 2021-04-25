@@ -12,23 +12,24 @@
 
 #proj-link {
   text-decoration: none;
+  border: solid red;
   margin-top: 5em;
 }
 
 .Parallax-content-cta-proj {
   background-color: rgb(31, 30, 30);
-  background-repeat: no-repeat;
   border: solid white;
   border-radius: 1em;
-  width: 67em;
-  height:18em;
+  width: 100%;
+  /* height:18em; */
   /* padding: 8em; */
   font-size: 1.2em;
   color: #fff;
   /* margin-top: 5em; */
   display: flex;
   flex-direction: row;
-  min-width: 700px;
+  min-width: 30em;
+  max-width: 70em;
 }
 
 .text-block {
@@ -41,13 +42,15 @@
 
 .image-block {
   width:27%;
-  padding: 8em;
+  padding: 7.3em;
+  background-repeat: no-repeat;
+  vertical-align: text-bottom;
+  background-color: black;
   border-right: 0.20em solid white;
   overflow: hidden;
   border-top-left-radius: 1em;
   border-bottom-left-radius: 1em;
   font-size: 1em;
-  /* border: solid red; */
 }
 
 #basa {
@@ -58,18 +61,19 @@
 
 #pianio {
   background-image: url("../../images/pianio.jpg");
-  background-size: 25em;
+  background-size: 26em;
   background-position: center;
 }
 
 #uCook {
   background-image: url("../../images/ucook.jpg");
-  background-size: 28em;
+  background-size: 29em;
   background-position: center;
 }
 
 .Parallax-content-cta-proj:hover {
   background-size: 30em;
+  background-color: rgb(105, 33, 47);
   transform: scale(1.02);
 }
 

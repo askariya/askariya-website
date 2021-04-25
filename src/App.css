@@ -3,7 +3,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  zoom: 90%;
+  /* zoom: 90%; */
   /* overflow-x: hidden; */
   font-family: Arial, Helvetica, sans-serif;
   border: solid salmon;

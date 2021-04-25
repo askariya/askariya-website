@@ -10,54 +10,84 @@
   margin-top: 5em;
 } */
 
-#proj-link {
+#back-button-link {
+  margin-top: 4em;
+  margin-right: 73%;
+  position: fixed;
   text-decoration: none;
+  border: solid blue
 }
+
+.back-button {
+  background-color: rgb(31, 30, 30);
+  border-radius: 0.2em;
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 1em;
+}
+.back-button:hover {
+  background-color: rgb(105, 33, 47);
+} 
 
 .Parallax-content-cta-ucook {
   background-color: rgb(31, 30, 30);
   /* background-repeat: no-repeat; */
-  border: solid white;
+  border: solid grey;
   border-radius: 1em;
-  width: 67em;
-  height:18em;
-  /* padding: 8em; */
-  font-size: 1.2em;
+  width: 70%;
+  font-size: 1.1em;
   color: #fff;
-  margin-top: 5em;
+  margin: 1em;
   display: flex;
   flex-direction: row;
-  min-width: 700px;
+  min-width: 30em;
+  max-width: 70em;
+}
+
+#red-background {
+  background-color: rgb(105, 33, 47);
 }
 
 .text-block-ucook {
-  width: 73%;
+  width: 100%;
   /* border: dashed red; */
   vertical-align: text-bottom;
   padding: 2em;
-  line-height: 1.35;
+  line-height: 1.6;
 }
 
-.image-block-ucook {
-  width:27%;
-  padding: 8em;
-  border-right: 0.20em solid white;
+.centred-img {
+  height: auto;
   overflow: hidden;
-  border-top-left-radius: 1em;
-  border-bottom-left-radius: 1em;
-  font-size: 1em;
-  /* border: solid red; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid grey;
+  border-radius: 1em;
 }
 
-#uCook {
-  background-image: url("../../images/ucook.jpg");
-  background-size: 28em;
-  background-position: center;
+#ucook-recipe {
+  width: 18%;
+  min-width: 15em;
+  margin: 2em;
+  
 }
 
-.Parallax-content-cta-ucook:hover {
-  background-size: 30em;
-  transform: scale(1.02);
+/* video wrapper from: https://css-tricks.com/fluid-width-video/ */
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 section.route-section{
