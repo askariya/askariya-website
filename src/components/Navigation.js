@@ -22,22 +22,22 @@ function Navigation({onChangeTab}) {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={() => onChangeTab("images/hotel.jpg")}>
+              <Link to='/' className='nav-links'>
                 Home
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/projects' className='nav-links' onClick={() => onChangeTab("images/hotel.jpg")}>
+              <Link to='/projects' className='nav-links'>
                 Projects
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/about' className='nav-links' onClick={() => onChangeTab("images/hotel.jpg")}>
+              <Link to='/about' className='nav-links'>
                 About
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/contact' className='nav-links' onClick={() => onChangeTab("images/hotel.jpg")}>
+              <Link to='/contact' className='nav-links'>
                 Contact
               </Link>
             </li>

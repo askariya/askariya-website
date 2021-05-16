@@ -1,0 +1,84 @@
+
+/* .Parallax-content-cta-proj {
+  background-color: #ff737e;
+  border: solid white;
+  border-radius: 1em;
+  width: 80%;
+  padding: 8em;
+  font-size: 1.25em;
+  color: #fff;
+  margin-top: 5em;
+} */
+
+#proj-link {
+  text-decoration: none;
+  margin-top: 5em;
+}
+
+.Parallax-content-cta-proj {
+  background-color: rgb(31, 30, 30);
+  border: solid white;
+  border-radius: 1em;
+  width: 100%;
+  /* height:18em; */
+  /* padding: 8em; */
+  font-size: 1.0em;
+  color: #fff;
+  /* margin-top: 5em; */
+  display: flex;
+  flex-direction: row;
+  min-width: 30em;
+  max-width: 70em;
+}
+
+.text-block {
+  width: 73%;
+  /* border: dashed red; */
+  vertical-align: text-bottom;
+  padding: 2em;
+  line-height: 1.35;
+}
+
+.image-block {
+  width:27%;
+  padding: 7.3em;
+  background-repeat: no-repeat;
+  vertical-align: text-bottom;
+  background-color: black;
+  border-right: 0.20em solid white;
+  overflow: hidden;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+  font-size: 1em;
+}
+
+#basa {
+  background-image: url("../../images/basa.jpg");
+  background-size: 28em;
+  background-position: center;
+}
+
+#pianio {
+  background-image: url("../../images/pianio.jpg");
+  background-size: 26em;
+  background-position: center;
+}
+
+#uCook {
+  background-image: url("../../images/ucook.jpg");
+  background-size: 29em;
+  background-position: center;
+}
+
+.Parallax-content-cta-proj:hover {
+  background-size: 30em;
+  background-color: rgb(105, 33, 47);
+  transform: scale(1.02);
+}
+
+section.route-section{
+  border: solid blue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
