@@ -26,12 +26,12 @@ function uCook () {
             uCook is a prototype for a cooking instructor app that allows you to cook multiple recipes in parallel.
           </p> 
           <p>
-            It's a prototype in the sense that there is very little back-end logic to the functionality it provides, 
-            rather it's a demonstration of a UI for a potential user based on researched use-cases.
-            All of the system's basic functionality has been implemented in WPF in a hardcoded manner.
+            It's a prototype in the sense that there is very little back-end logic to the functionality it provides.
+            It's a demonstration of user interface and specific functionality (largely hardcoded) for a potential user based on researched use-cases.
+            All of the system's basic functionality and the GUI was implemented in WPF.
           </p>
           <p>
-            A user is able to:
+            The intended functionality for the app would allow Users to:
             <ul>
               <li>view recipes</li>
               <li>add recipes to a collection of favourites</li>
@@ -39,13 +39,16 @@ function uCook () {
               <li>cook one or more recipes at a time</li>
             </ul>
           </p> 
+          <p>
+            Once recipes are selected and started, the app walks through a list of steps and provides timers and helpful tips along the way.
+          </p>
         </div>
       </div>
-      <div className="Parallax-content-cta-ucook" id="red-background">
+      <div className="Parallax-content-cta-ucook" id="alt-background">
         <div className="text-block-ucook">
           <h2>Demonstration</h2>
           <p>
-            I created the video below to provide a detailed explanation of the features of the app.
+            I created the video below to provide a detailed explanation of the features of the app as well as demonstrate the intended use cases.
           </p> 
           <div class="videoWrapper">
             <iframe src="https://drive.google.com/file/d/1X8JIyClKA5A4L0m8Zb7Tk7_Sdj0CfDnu/preview" width="100%" height="auto"></iframe>
@@ -65,7 +68,7 @@ function uCook () {
             </ul>
         </div>
       </div>
-      <div className="Parallax-content-cta-ucook" id="red-background">
+      <div className="Parallax-content-cta-ucook" id="alt-background">
         <div className="text-block-ucook">
           <h2>Links</h2>
           <p>

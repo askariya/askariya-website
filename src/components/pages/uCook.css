@@ -15,7 +15,6 @@
   margin-right: 73%;
   position: fixed;
   text-decoration: none;
-  border: solid blue
 }
 
 .back-button {
@@ -29,16 +28,17 @@
   font-size: 1em;
 }
 .back-button:hover {
-  background-color: rgb(105, 33, 47);
+  background-color: rgb(141, 32, 54);
+  cursor:pointer;
 } 
 
 .Parallax-content-cta-ucook {
-  background-color: rgb(31, 30, 30);
+  background-color: #007c91;
   /* background-repeat: no-repeat; */
-  border: solid grey;
+  /* border: solid grey; */
   border-radius: 1em;
   width: 70%;
-  font-size: 1.1em;
+  font-size: 1.0em;
   color: #fff;
   margin: 1em;
   display: flex;
@@ -47,8 +47,8 @@
   max-width: 70em;
 }
 
-#red-background {
-  background-color: rgb(105, 33, 47);
+#alt-background {
+  background-color: #cc4d26;
 }
 
 .text-block-ucook {
