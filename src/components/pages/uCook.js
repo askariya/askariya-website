@@ -18,7 +18,7 @@ function uCook () {
       <Link id='back-button-link' to='/projects'>
         <button class="back-button" onclick="history.back()">Back</button>
       </Link>
-      <img id="ucook-recipe" class="centred-img" src={ucook_recipe}/>
+      <img id="ucook-recipe" alt="recipe-page" class="centred-img" src={ucook_recipe}/>
       <div className="Parallax-content-cta-ucook">
         <div className="text-block-ucook">
           <h2>Description</h2>
@@ -51,7 +51,7 @@ function uCook () {
             I created the video below to provide a detailed explanation of the features of the app as well as demonstrate the intended use cases.
           </p> 
           <div class="videoWrapper">
-            <iframe src="https://drive.google.com/file/d/1X8JIyClKA5A4L0m8Zb7Tk7_Sdj0CfDnu/preview" width="100%" height="auto"></iframe>
+            <iframe title="uCook Demonstration" src="https://drive.google.com/file/d/1X8JIyClKA5A4L0m8Zb7Tk7_Sdj0CfDnu/preview" width="100%" height="auto"></iframe>
           </div>
         </div>
       </div>

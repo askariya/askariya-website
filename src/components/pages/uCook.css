@@ -18,7 +18,7 @@
 }
 
 .back-button {
-  background-color: rgb(31, 30, 30);
+  background-color: rgb(197, 18, 18);
   border-radius: 0.2em;
   color: white;
   padding: 1em 2em;
@@ -28,7 +28,7 @@
   font-size: 1em;
 }
 .back-button:hover {
-  background-color: rgb(141, 32, 54);
+  background-color: rgb(233, 7, 53);
   cursor:pointer;
 } 
 

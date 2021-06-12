@@ -2,7 +2,6 @@
 import React from 'react';
 import '../../App.css';
 import './Home.css'
-import Hero from '../Hero';
 
 function Home () {
   return (
